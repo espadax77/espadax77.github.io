@@ -1,0 +1,67 @@
+.container{
+    display: grid;
+    height: 100vh;
+    width: 70vw;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "sidebar nav nav"
+    "sidebar main main"
+    "sidebar footer footer"
+}
+
+nav{
+    background-color: dimgray;
+    grid-area: nav;
+}
+
+#header-text{
+    color:whitesmoke;
+    padding-left: 170px;
+    margin-top: 30px;
+}
+
+main{
+    background-color: dimgray;
+    grid-area: main;
+}
+
+#about{
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+#sidebar{
+    background-color:gold;
+    grid-area: sidebar;
+}
+
+.education{
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+#edu-group{
+    color: whitesmoke;
+}
+
+footer{
+    background-color: dimgray;
+    grid-area: footer;
+}
+
+/*
+content1{
+    background-color: lightskyblue;
+    grid-area: content1;
+}
+
+content2{
+    background-color: lightgreen;
+    grid-area: content2;
+}
+
+content3{
+    background-color: peru;
+    grid-area: content3;
+}
